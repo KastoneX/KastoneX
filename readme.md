@@ -9,7 +9,7 @@ class Person:
     def __init__(self, name, occupation, education):
         self.name, self.occupation, self.education = name, occupation, education
     def __str__(self): return f"{self.name}, {self.occupation} at {self.education}"
-p = Person("Timofeev-Karakozov Artem", "Data Scientist Junior", 
+p = Person("Timofeev-Karakozov Artem", "Data Scientist", 
 "MTUCI, 3rd year Bachelor's degree in ICT and communication systems")
 
 # What I do
