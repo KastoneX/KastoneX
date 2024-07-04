@@ -10,7 +10,7 @@ class Person:
         self.name, self.occupation, self.education = name, occupation, education
     def __str__(self): return f"{self.name}, {self.occupation} at {self.education}"
 p = Person("Timofeev-Karakozov Artem", "Data Scientist Junior", 
-"MTUCI, 2nd year Bachelor's degree in ICT and communication systems")
+"MTUCI, 3rd year Bachelor's degree in ICT and communication systems")
 
 # What I do
 class Interests:
